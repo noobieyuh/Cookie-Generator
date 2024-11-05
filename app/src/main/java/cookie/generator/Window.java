@@ -36,7 +36,7 @@ public class Window implements ActionListener
         mainDisplay.setLocation(100, 65);
 
         mainText.setBounds(110, 0, 200, 100);
-        secondText.setBounds(90, 290, 250, 100);
+        secondText.setBounds(90, 285, 250, 100);
         thirdText.setBounds(75, 300, 350, 100);
         
         mainFrame.add(mainDisplay);
