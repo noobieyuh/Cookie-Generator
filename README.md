@@ -1,4 +1,4 @@
-# Cookie Generator
+# The one and only... Cookie Generator!
 Hey there whoever you are! Witness thy creation known best as the Cookie Generator, a one of a kind, life changing experience. This project is something you must witness with your own 2 beautiful eyes...
 
 ## Purpose
