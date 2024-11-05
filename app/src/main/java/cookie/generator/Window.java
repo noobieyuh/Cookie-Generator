@@ -7,6 +7,7 @@ import java.io.File;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
@@ -18,17 +19,27 @@ public class Window implements ActionListener
     JFrame mainFrame = new JFrame("Cookie Generator :D");
     JButton addCookieButton = new JButton("Press for cookies!!!");
     ImageIcon cookieTitlePicture = new ImageIcon("app\\src\\main\\resources\\pictures\\cookieplus.png");
+    ImageIcon mainTitlePicture = new ImageIcon("app\\src\\main\\resources\\pictures\\mainpic.png");
+    JLabel mainDisplay = new JLabel(mainTitlePicture);
+    JLabel mainText = new JLabel("hi there want cookie click button");
 
     Window()
     {
-        addCookieButton.setBounds(100, 150, 200, 50);
+        addCookieButton.setBounds(100, 300, 200, 50);
         addCookieButton.setFocusable(false);
         addCookieButton.addActionListener(this);
         addCookieButton.setBackground(Color.PINK);
 
-        mainFrame.add(addCookieButton);
-        mainFrame.setIconImage(cookieTitlePicture.getImage());
+        mainDisplay.setSize(200, 200);
+        mainDisplay.setLocation(100, 65);
 
+        mainText.setBounds(110, 0, 200, 100);
+        
+        mainFrame.add(mainDisplay);
+        mainFrame.add(addCookieButton);
+        mainFrame.add(mainText);
+
+        mainFrame.setIconImage(cookieTitlePicture.getImage());
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         mainFrame.setSize(400,400);
         mainFrame.setLayout(null);
