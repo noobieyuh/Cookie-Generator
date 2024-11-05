@@ -1,10 +1,8 @@
 package cookie.generator;
 
-import java.lang.Math;
-import javax.swing.JFrame;
 import javax.swing.ImageIcon;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
-
 
 public class TopWindow {
     
