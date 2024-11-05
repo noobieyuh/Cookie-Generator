@@ -10,9 +10,9 @@ public class TopWindow {
     
     JFrame cookieFrame = new JFrame("Here's a cookie!");
     ImageIcon windowPicture = new ImageIcon("app\\src\\main\\resources\\pictures\\cookieplus.png");
-    ImageIcon bigCookie = new ImageIcon("app\\src\\main\\resources\\pictures\\cookie.jpg");
+    ImageIcon bigCookie = new ImageIcon("app\\src\\main\\resources\\pictures\\cookie.jpg"); 
     JLabel display = new JLabel(bigCookie);
-
+    
     TopWindow()
     {
         cookieFrame.setIconImage(windowPicture.getImage());

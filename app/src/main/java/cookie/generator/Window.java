@@ -1,5 +1,6 @@
 package cookie.generator;
 
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -23,6 +24,7 @@ public class Window implements ActionListener
         addCookieButton.setBounds(100, 150, 200, 50);
         addCookieButton.setFocusable(false);
         addCookieButton.addActionListener(this);
+        addCookieButton.setBackground(Color.PINK);
 
         mainFrame.add(addCookieButton);
         mainFrame.setIconImage(cookieTitlePicture.getImage());
@@ -49,11 +51,10 @@ public void playSound(String nameSound)
 {
     try
     {
-        AudioInputStream audioStream = AudioSystem.getAudioInputStream(new File("app\\src\\main\\resources\\sounds\\" + nameSound).getAbsoluteFile());
+        AudioInputStream audioStream = AudioSystem.getAudioInputStream(new File("app\\bin\\main\\sounds\\" + nameSound).getAbsoluteFile());
         Clip musicClip = AudioSystem.getClip();
         musicClip.open(audioStream);
         musicClip.start();
-        
     }
     catch(Exception error)
     {

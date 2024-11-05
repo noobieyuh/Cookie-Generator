@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "cookie.generator.App"
+    mainClass = "cookie.generator.Main"
 }
 
 tasks.named<Test>("test") {
