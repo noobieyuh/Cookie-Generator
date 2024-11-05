@@ -26,8 +26,8 @@ public class TopWindow {
         cookieFrame.setVisible(true);
         cookieFrame.setResizable(false);
 
-        int randomX = (int) (Math.random() * 1400) + 100;
-        int randomY = (int) (Math.random() * 500) + 100;
+        int randomX = (int) (Math.random() * 1500) + 10;
+        int randomY = (int) (Math.random() * 800) + 10;
 
         cookieFrame.setLocation(randomX, randomY);
 
