@@ -18,3 +18,6 @@ With your help and incredible clicking powers, you will create many cookies and 
 There is no end to greatness, you can keep going forever and ever if you can handle it. I would say the sky's the limit, but really it depends on your device.
 
 <img src="https://github.com/noobieyuh/Cookie-Generator/blob/main/app/src/main/resources/pictures/cookiechaos.png">
+
+## Thanks
+You either scrolled to the bottom, or actually looked and read what I have above. I took a unreasonable amount of time working on this, but I had fun while doing it :D
