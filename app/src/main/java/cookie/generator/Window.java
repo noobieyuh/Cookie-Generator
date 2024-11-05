@@ -23,6 +23,7 @@ public class Window implements ActionListener
     JLabel mainDisplay = new JLabel(mainTitlePicture);
     JLabel mainText = new JLabel("hi there want cookie click button");
     JLabel secondText = new JLabel("whoever you are, i think youre awesome");
+    JLabel thirdText = new JLabel("warning: there is audio so check your volume");
 
     Window()
     {
@@ -36,11 +37,13 @@ public class Window implements ActionListener
 
         mainText.setBounds(110, 0, 200, 100);
         secondText.setBounds(90, 290, 250, 100);
+        thirdText.setBounds(75, 300, 350, 100);
         
         mainFrame.add(mainDisplay);
         mainFrame.add(addCookieButton);
         mainFrame.add(mainText);
         mainFrame.add(secondText);
+        mainFrame.add(thirdText);
 
         mainFrame.getContentPane().setBackground(Color.WHITE);
         mainFrame.setIconImage(cookieTitlePicture.getImage());
